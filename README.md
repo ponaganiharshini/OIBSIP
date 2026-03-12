@@ -50,3 +50,41 @@ python voice_assistant.py
 ## Author
 Ponagani Harshini
 Oasis Infobyte Python Programming Internship
+
+
+### Task 2 - Weather App
+
+A weather app I built using Python that shows 
+real-time weather details for any city you search.
+
+### About
+I built this project as part of my Python 
+Programming Internship at Oasis Infobyte. The idea 
+was to create a simple app where you can type any 
+city name and instantly see its current weather.
+
+### Features
+- Search weather for any city
+- Shows current temperature in °C or °F
+- Shows feels like temperature
+- Shows humidity, wind speed and pressure
+- Shows visibility in km
+- Shows sunrise and sunset times
+- Weather emoji changes based on conditions
+- Quick search buttons for Hyderabad, Mumbai, 
+  Delhi and Chennai
+
+### Technologies Used
+- Python 3
+- Tkinter for GUI window
+- OpenWeatherMap API for weather data
+- Requests to fetch data from API
+- Datetime to show date and time
+
+### How to Run
+pip install requests
+python weather_app.py
+
+### Author
+Ponagani Harshini
+Oasis Infobyte Python Programming Internship
