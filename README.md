@@ -1,11 +1,10 @@
-### TASK 1 -Voice Assistant
-
+# TASK 1 -Voice Assistant
 A Python-based Voice Assistant with a graphical interface that listens to voice commands and responds with speech and text.
 
-## About
+# About
 I built this project as part of my Python Programming Internship at Oasis Infobyte. The idea was to create a smart assistant that can understand what you say and respond helpfully.
 
-## Features
+# Features
 - Responds to voice commands using microphone
 - Tells current time and date
 - Searches Google and YouTube
@@ -15,7 +14,7 @@ I built this project as part of my Python Programming Internship at Oasis Infoby
 - Opens websites like GitHub and LinkedIn
 - Also accepts text input if microphone is unavailable
 
-## Technologies Used
+# Technologies Used
 - Python 3.14
 - Tkinter (GUI)
 - SpeechRecognition (voice input)
@@ -24,7 +23,7 @@ I built this project as part of my Python Programming Internship at Oasis Infoby
 - Requests (weather data)
 - Webbrowser (open websites)
 
-## How to Run
+# How to Run
 
 Install the required libraries:
 ```
@@ -36,7 +35,7 @@ Run the project:
 python voice_assistant.py
 ```
 
-## Commands You Can Try
+# Commands You Can Try
 - "Hello" - greets you
 - "What is the time?" - tells current time
 - "What is today's date?" - tells the date
@@ -47,12 +46,8 @@ python voice_assistant.py
 - "Open YouTube" - opens YouTube
 - "Goodbye" - closes the assistant
 
-## Author
-Ponagani Harshini
-Oasis Infobyte Python Programming Internship
 
-
-### Task 2 - Weather App
+## Task 2 - Weather App
 
 A weather app I built using Python that shows 
 real-time weather details for any city you search.
@@ -63,7 +58,7 @@ Programming Internship at Oasis Infobyte. The idea
 was to create a simple app where you can type any 
 city name and instantly see its current weather.
 
-### Features
+## Features
 - Search weather for any city
 - Shows current temperature in °C or °F
 - Shows feels like temperature
@@ -74,17 +69,40 @@ city name and instantly see its current weather.
 - Quick search buttons for Hyderabad, Mumbai, 
   Delhi and Chennai
 
-### Technologies Used
+## Technologies Used
 - Python 3
 - Tkinter for GUI window
 - OpenWeatherMap API for weather data
 - Requests to fetch data from API
 - Datetime to show date and time
 
-### How to Run
+## How to Run
 pip install requests
 python weather_app.py
 
-### Author
+
+
+### Task 3 - BMI Calculator
+A BMI calculator I built using Python that calculates your Body Mass Index and tells your health category.
+
+### About
+I built this project as part of my Python Programming Internship at Oasis Infobyte. You can enter your weight and height and it will instantly show your BMI and 
+health category.
+
+### Features
+Enter weight in kg
+Enter height in meters
+Calculates BMI automatically
+Shows health category (Underweight, Normal, Overweight, Obese)
+
+### Technologies Used
+Python 3
+IDLE for development
+
+### How to Run
+python bmi_calculator.py
+
+## Author
 Ponagani Harshini
 Oasis Infobyte Python Programming Internship
+
